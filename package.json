@@ -1,0 +1,41 @@
+{
+  "name": "rosskick",
+  "version": "0.0.0",
+  "description": "Tools for updates",
+  "main": "index.html",
+  "window": {
+    "title": "Rosskick",
+    "toolbar": true,
+    "frame": true,
+    "resizable": true,
+    "position": "center",
+    "width": 500,
+    "height": 400
+  },
+  "repository": {
+    "url": "--"
+  },
+  "scripts": {
+    "run": "nwbuild --run ./",
+    "win": "nwbuild -p win ./",
+    "linux": "nwbuild -p linux32,linux64 ./",
+    "osx": "nwbuild -p osx ./"
+  },
+  "author": {
+    "name": "--",
+    "url": "--"
+  },
+  "dependencies": {
+    "archiver": "^0.13.0",
+    "easy-zip": "0.0.4",
+    "es6-promise": "^2.0.1",
+    "format-json": "^1.0.3",
+    "node-webkit-builder": "^1.0.4",
+    "node-zip": "^1.1.0",
+    "ssh-keygen": "^0.2.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.6.2",
+    "gulp-shell": "^0.2.5"
+  }
+}
